@@ -1,0 +1,9 @@
+..\obj\adc.o: ..\HARDWARE\ADC\adc.c
+..\obj\adc.o: ..\HARDWARE\ADC\adc.h
+..\obj\adc.o: ..\SYSTEM\sys\sys.h
+..\obj\adc.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\adc.o: C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h
+..\obj\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\adc.o: C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h
+..\obj\adc.o: C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h
+..\obj\adc.o: ..\SYSTEM\sys\system_stm32f10x.h

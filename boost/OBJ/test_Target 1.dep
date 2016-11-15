@@ -1,0 +1,62 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_ld.s)(0x57FE0E1A)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "ARMCM3 SETA 1"--list ..\obj\startup_stm32f10x_ld.lst --xref -o ..\obj\startup_stm32f10x_ld.o --depend ..\obj\startup_stm32f10x_ld.d)
+F (.\test.c)(0x5808C9BA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
+F (..\SYSTEM\delay\delay.c)(0x57FE0E13)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x57FE0E12)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
+F (..\SYSTEM\sys\sys.c)(0x57FE0E11)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
+F (..\SYSTEM\usart\usart.c)(0x57FE0E0F)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x57FE0E0E)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
+F (..\HARDWARE\ADC\adc.c)(0x57FE0DED)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x57FE0DED)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
+F (..\HARDWARE\LED\led.c)(0x57FE0DEE)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
+F (..\HARDWARE\TIMER\timer.c)(0x57FE0DED)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\ADC -I..\USER -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\SYSTEM\sys\Include-I C:\Users\Yuanlin\Desktop\boost\USER\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x57FE0DEC)
+I (..\SYSTEM\sys\sys.h)(0x57FE0E10)
+I (..\SYSTEM\sys\stm32f10x.h)(0x57FE0E13)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x57FE0E10)
