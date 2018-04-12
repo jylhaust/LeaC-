@@ -9,4 +9,6 @@
 /home/yuanlin/mycppcode/base/readtxt/main.cpp
 iostream
 -
+fstream
+-
 
