@@ -1,0 +1,3 @@
+/home/yuanlin/mycppcode/base/readtxt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yuanlin/mycppcode/base/readtxt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yuanlin/mycppcode/base/readtxt/cmake-build-debug/CMakeFiles/readtxt.dir

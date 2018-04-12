@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/readtxt.dir/main.cpp.o  -o readtxt 
